@@ -16,5 +16,25 @@ body {
 }
 /*formato general del header*/
 header {
-	background-image: url(); 
+	background-image: url(../images/img-fondo.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: bottom;
+	margin-top: 4.325em;
+}
+header .header-user i {
+	padding: 1em;
+	color: #ECCEF5;
+}
+header h2 {
+	display: inline-block;
+	color: #ECCEF5;
+}
+header .btn-follow {
+	background-color: #380B61;
+	color: #FFBF00;
+	border: none;
+	display: block;
+	margin-bottom: 1em;
+	margin-left: 3em;
 }
