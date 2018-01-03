@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
@@ -16,7 +18,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12">
-        <img src="assets/images/logo1.png" class="logo">
+        <h1 class="title">CONECTA</h1>
       </div>
     </div>
     <div class="row">
@@ -51,23 +53,23 @@
           </div>
           <div class="row">
             <div class="col-lg-6 col-md-6">
-              <p><input class="input input-password" placeholder="Contraseña"></p>
+              <p><input type="password" class="inputRegister input-password" placeholder="Contraseña"></p>
             </div>
             <div class="col-lg-6 col-md-6">
-              <p><input class="input input-repassword" placeholder="Confirmar Contraseña"></p>
+              <p><input type="password" class="inputRegister input-repassword" placeholder="Confirmar Contraseña"></p>
             </div>
           </div>
            <div class="row">
             <div class="col-lg-6 col-md-6">
-              <p><input class="input input-eMail" placeholder="Email"></p>
+              <p><input class="inputRegister input-eMail" placeholder="Email"></p>
             </div>
             <div class="col-lg-6 col-md-6">
-              <p><input class="input input-age" placeholder="Edad"></p>
+              <p><input class="inputRegister input-age" placeholder="Edad"></p>
             </div>
           </div>           
           <div class="row">
             <div class="col-lg-12 col-md-12">
-              <button class="btn btn-lg btn-access">ACCEDER</button>
+              <button class="btn btn-lg btn-warning btn-access" id = "btnSignUp">ACCEDER</button>
             </div>
           </div>
           <div class="row">
@@ -103,19 +105,19 @@
       <div class="modal-body"> 
         <div class="row">
           <div class="col-lg-12 col-md-12">
-            <label>Nombre de usuario:</label>
-            <input type="text">
+            <label>Email:</label>
+            <input id="txtEmail" type="text">
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12 col-md-12">
             <label>Contraseña:</label>
-            <input type="text" class="inputEntryPass">
+            <input id="txtPassword" type="password" class="inputEntryPass">
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12 col-md-12">
-            <button class="btn-lg btnEntry">INGRESAR</button>
+            <button class="btn-lg btnEntry" id = "btnLogin">INGRESAR</button>
           </div>
         </div>
       </div>    
