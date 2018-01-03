@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  color: #380B61;
+}
+.first-section{
+  background: linear-gradient(to bottom right, violet, yellow);
+  width: 100%;
+  height: 100vh;
+}
+.logo{
+  width: 20em;
+  margin-top: 10em;
+  margin-left: 40%;
+}
+.phrase{
+  font-size: 1.5em;
+  text-align: center;
+}
+.btn{
+  margin-top: 6em;
+}
+.btn1{
+  margin-left: 23em;
+}
+.btn2{
+  margin-left: 1.5em;
+}
+.content-register, .content-entry{
+  background: #ECCEF5;
+}
+
+.header-register h3{
+  text-align: center;
+  position: relative;
+  bottom: 0.40em;
+}
+.input{
+  padding: 0.40em;
+}
+.input-name, .input-password, .input-eMail{
+  margin-left: 4em;
+}
+.btn-access{
+  background: #F7FE2E;
+  position: relative;
+  left: 10.8em;
+  bottom: 5em;
+}
+.text-o{
+  position: relative;
+  left: 10em;
+  bottom: 5em;
+}
+.text-o::after, .text-o::before{
+  content: "";
+  display: inline-block;
+  width: 8em;
+  height: 0.1em;
+  background-color: #380B61;
+}
+
+.btn-primary{
+  position: relative;
+  bottom: 2em;
+}
+.btn-info{
+  width: 15em;
+}
+.btn-primary, .btn-info{
+  margin-left: 7em;
+}
+.content-entry h3{
+  text-align: center;
+}
+
