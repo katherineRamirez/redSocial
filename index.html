@@ -26,8 +26,8 @@
     </div>
     <div class="row">
       <div class="col-lg-12 col-md-12">
-        <a href="#modal1" data-toggle="modal"><button type="button" class="btn btn-lg btn-warning btn1">REGISTRATE</button></a>
-        <a href="#modal2" data-toggle="modal"><button type="button" class="btn btn-lg btn-warning btn2">INGRESA</button></a>
+        <a href="#modal1" data-toggle="modal"><button type="button" class="btnModal btn-lg btn-warning btn1">REGISTRATE</button></a>
+        <a href="#modal2" data-toggle="modal"><button type="button" class="btnModal btn-lg btn-warning btn2">INGRESA</button></a>
       </div>
     </div>
   </div>
@@ -43,10 +43,10 @@
       <div class="modal-body"> 
           <div class="row">
             <div class="col-lg-6 col-md-6">
-              <p><input class="input input-name" placeholder="Nombre"></p>
+              <p><input class="inputRegister input-name" placeholder="Nombre"></p>
             </div>
             <div class="col-lg-6 col-md-6">
-              <p><input class="input input-lastName" placeholder="Apellido"></p>
+              <p><input class="inputRegister input-lastName" placeholder="Apellido"></p>
             </div>
           </div>
           <div class="row">
@@ -77,12 +77,12 @@
           </div>
            <div class="row">
             <div class="col-lg-12 col-md-12">
-              <button class="btn-lg btn-primary">ACCEDER CON FACEBOOK</button>
+              <button class="btn-lg btn-primary btnFacebook">ACCEDER CON FACEBOOK</button>
             </div>
           </div>
            <div class="row">
             <div class="col-lg-12 col-md-12">
-              <button class="btn-lg btn-info">ACCEDER CON GOOGLE</button>
+              <button class="btn-lg btn-info btnGoogle">ACCEDER CON GOOGLE</button>
             </div>
           </div>          
         </div>    
@@ -99,8 +99,25 @@
       <div class="modal-header header-entry">
         <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h3>Inicio de Sesión</h3>
+        <hr>
       <div class="modal-body"> 
-          
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <label>Nombre de usuario:</label>
+            <input type="text">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <label>Contraseña:</label>
+            <input type="text" class="inputEntryPass">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <button class="btn-lg btnEntry">INGRESAR</button>
+          </div>
+        </div>
       </div>    
       </div>         
     </div>

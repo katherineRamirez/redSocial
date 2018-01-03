@@ -4,55 +4,67 @@
   box-sizing: border-box;
   color: #380B61;
 }
+/* Estilos primera sección fondo de pantalla */
 .first-section{
   background: linear-gradient(to bottom right, violet, yellow);
   width: 100%;
   height: 100vh;
 }
+/* Ancho y márgenes del logo de la red social */
 .logo{
   width: 20em;
   margin-top: 10em;
   margin-left: 40%;
 }
+/* Estilos de la frase de portada */
 .phrase{
   font-size: 1.5em;
   text-align: center;
 }
-.btn{
+/* Margen superior de los botones de registro e inicio de sesión */
+.btnModal{
   margin-top: 6em;
 }
+/* Margen a la izquierda botón registro */
 .btn1{
   margin-left: 23em;
 }
+/* Margen a la izquierda botón ingreso */
 .btn2{
   margin-left: 1.5em;
 }
+/* Color de fondo de los contenedores de los modals */
 .content-register, .content-entry{
   background: #ECCEF5;
 }
-
+/* Estilos del título del modal de registro */
 .header-register h3{
   text-align: center;
   position: relative;
   bottom: 0.40em;
 }
-.input{
+/* Padding de los inputs del modal de registro */
+.inputRegister{
   padding: 0.40em;
 }
+/* Margen a la izquierda de los inputs del modal de registro */
 .input-name, .input-password, .input-eMail{
   margin-left: 4em;
 }
+/* Estilos del botón para acceder */
 .btn-access{
   background: #F7FE2E;
   position: relative;
   left: 10.8em;
   bottom: 5em;
 }
+/* Estilos de la letra ó */
 .text-o{
   position: relative;
   left: 10em;
   bottom: 5em;
 }
+/* Estilos de las líneas a los costados de la letra ó */
 .text-o::after, .text-o::before{
   content: "";
   display: inline-block;
@@ -60,18 +72,31 @@
   height: 0.1em;
   background-color: #380B61;
 }
-
-.btn-primary{
+/* Estilos del botón a ingreso a Facebook */
+.btnFacebook{
   position: relative;
   bottom: 2em;
 }
-.btn-info{
+/* Ancho del botón a ingreso a Google */
+.btnGoogle{
   width: 15em;
 }
-.btn-primary, .btn-info{
+/* Margen de los botones de ingreso a Facebook y Google */
+.btnFacebook, .btnGoogle{
   margin-left: 7em;
 }
+/* Título de sección ingreso centrado */
 .content-entry h3{
   text-align: center;
+}
+/* Margen a la izquierda del input de contraseña de la sección de ingreso */
+.inputEntryPass{
+  margin-left: 3.7em;
+}
+/* Estilos del botón de ingresar del modal inicio de sesión */
+.btnEntry{
+  padding: 0.30em;
+  background: #FFBF00;
+  margin-top: 3em;
 }
 
