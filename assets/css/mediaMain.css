@@ -1,19 +1,16 @@
 /* Media query para ajustar contenido de web con un ancho mínimo de 
   601px y un máximo de 1000px */
-@media (min-width: 601px) and (max-width: 1000px) {
+@media (min-width: 426px) and (max-width: 770px) {
   [class*="col-"] {
     width: 100%;
   }
-  /* Centrando la imagen de fondo */
-  .first-section{
-    background-position: center;
-  }
+
   /* Cambiando los margenes del titulo de portada de la primera sección
   (nombre de red social) */
   .title{
     font-size: 4em;
-    margin-top: 5em;
-    margin-left: 2em;
+    margin-top: 4em;
+    margin-left: 1em;
   }
   /* Cambiando margen de la frase primera sección */
   .phrase{
@@ -22,7 +19,7 @@
   /* Cambiando margen del botón REGISTRATE primera sección */
   .btn1{
     margin-top: 0.5em;
-    margin-left: 17em;
+    margin-left: 13em;
   }
   /* Cambiando margen del botón INGRESA primera sección */
   .btn2{
@@ -53,23 +50,20 @@
 
 /* Media query para ajustar contenido de web con un ancho mínimo de 
   200px y un máximo de 600px */
-@media (min-width: 200px) and (max-width: 600px) {
+@media (min-width: 200px) and (max-width: 425px) {
   [class*="col-"] {
     width: 100%;
   }
-  /* Centrando la imagen de fondo */
-  .first-section{
-    background-position: center;
-  }
+
 /* Cambiando los margenes del titulo de portada de la primera sección
   (nombre de red social) */
   .title{
     font-size: 3em;
-    margin-top: 7em;
+    margin-top: 5em;
   }
   .btn1{
     margin-top: 0.5em;
-    margin-left: 1em;
+    margin-left: 1.8em;
   }
   .btn2{
     margin-top: 0.5em;
