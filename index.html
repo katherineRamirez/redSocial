@@ -8,9 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/mediaMain.css">
 </head>
 <body>
 
@@ -43,6 +44,7 @@
       <div class="modal-header header-register">
         <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h3>Registrate</h3>
+        <hr>
       <div class="modal-body"> 
           <div class="row">
             <div class="col-lg-6 col-md-6">
@@ -54,20 +56,20 @@
           </div>
           <div class="row">
             <div class="col-lg-6 col-md-6">
+              <p><input class="inputRegister input-age" placeholder="Edad"></p>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <p><input class="inputRegister input-eMail" placeholder="Email"></p>
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
               <p><input type="password" class="inputRegister input-password" placeholder="Contraseña"></p>
             </div>
             <div class="col-lg-6 col-md-6">
               <p><input type="password" class="inputRegister input-repassword" placeholder="Confirmar Contraseña"></p>
             </div>
-          </div>
-           <div class="row">
-            <div class="col-lg-6 col-md-6">
-              <p><input class="inputRegister input-eMail" placeholder="Email"></p>
-            </div>
-            <div class="col-lg-6 col-md-6">
-              <p><input class="inputRegister input-age" placeholder="Edad"></p>
-            </div>
-          </div>           
+          </div>          
           <div class="row">
             <div class="col-lg-12 col-md-12">
               <button class="btn btn-lg btn-warning btn-access" id = "btnSignUp">ACCEDER</button>
@@ -96,7 +98,7 @@
 </div>
 
 <!-- Modal de ingreso -->
-<form id="formEntry">
+<form id="form-horizontal">
   <div class="modal fade" id="modal2">
     <div class="modal-dialog">
       <div class="modal-content content-entry">
@@ -137,6 +139,7 @@
 
   <script src="assets/js/jquery-3.2.1.min.js"></script>
   <script src="assets/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="assets/moment/moment.min.js" ></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>

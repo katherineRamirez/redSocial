@@ -30,11 +30,11 @@
 }
 /* Margen superior de los botones de registro e inicio de sesión */
 .btnModal{
-  margin-top: 6em;
+  margin-top: 4em;
 }
 /* Margen a la izquierda botón registro */
 .btn1{
-  margin-left: 23em;
+  margin-left: 20em;
 }
 /* Margen a la izquierda botón ingreso */
 .btn2{
@@ -55,20 +55,14 @@
   padding: 0.40em;
 }
 /* Margen a la izquierda de los inputs del modal de registro */
-.input-name, .input-password, .input-eMail{
+.input-name, .input-password, .input-age{
   margin-left: 4em;
-}
-/* Estilos del botón para acceder */
-.btn-access{
-  position: relative;
-  left: 10.8em;
-  top: 1em;
 }
 /* Estilos de la letra ó */
 .text-o{
   position: relative;
   left: 10em;
-  bottom: 4em;
+  bottom: 6em;
 }
 /* Estilos de las líneas a los costados de la letra ó */
 .text-o::after, .text-o::before{
@@ -77,6 +71,12 @@
   width: 8em;
   height: 0.1em;
   background-color: #380B61;
+}
+/* Estilos del botón para acceder */
+.btn-access{
+  position: relative;
+  left: 10.8em;
+  top: 1em;
 }
 /* Estilos del botón a ingreso a Facebook */
 .btnFacebook{
