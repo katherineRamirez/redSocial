@@ -3,16 +3,28 @@ body {
 	background-color: #ECCEF5;
 	color: #380B61;
 }
+body a,i {
+	color:  #380B61;
+}
 /*formato general del nav*/
-.nav {
+.nav, .navbar-default {
 	background-color: #FFBF00;
 }
-.nav #li-a-brand {
+.nav #a-brand {
 	color: #380B61;
 	font-size: 1.5em;
 }
 .nav .span-input-search {
 	background-color: #ECCEF5;
+}
+.navbar-nav {
+	margin: 0;
+}
+.ul-nav {
+	display: inline-block;
+}
+.ul-nav-collapse {
+	display: none;
 }
 /*formato general del header*/
 header {

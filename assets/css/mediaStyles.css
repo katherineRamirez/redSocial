@@ -1,0 +1,45 @@
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.sectn-stair .div-happening-news {
+	margin-left: 17.75em;
+	width: 65.5%;
+	}
+	.sectn-stair .div-happening-newprof {
+	margin-left: 31em;
+	width: 65.5%;
+	}
+}
+@media (min-width: 771px) and (max-width: 1024px) {
+	.sectn-stair .div-happening-news {
+	margin-left: 12.75em;
+	width: 64.75%;
+	}
+	.sectn-stair .div-happening-newprof {
+	margin-left: 23.75em;
+	width: 64.75%;
+	}
+}
+@media (min-width: 426px) and (max-width: 770px) {
+  .sectn-me-write .div-write-news .div-write-area a i {
+	margin: 0;
+	}
+	.sectn-stair .div-happening-news {
+	margin-left: 9.7em;
+	width: 64.25%;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 425px) {
+ 	.navbar-default .navbar-form {
+ 		display: none;
+ 	}
+  .sectn-me-write .div-write-news .div-write-area a i {
+	margin: 0;
+	}
+  .sectn-stair .div-happening-news {
+	margin-left: 1em;
+	width: 92.5%;
+	}
+	.sectn-me-write .div-write-news {
+	margin-top: 1.5em;
+	} 
+}
