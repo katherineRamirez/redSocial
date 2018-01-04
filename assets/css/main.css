@@ -58,6 +58,42 @@
 .input-name, .input-password, .input-age{
   margin-left: 4em;
 }
+/* Estilos de los mensajes que aparecen en caso de error en el ingreso
+  de datos de nombre, edad y contraseña de la sección REGISTRATE*/
+.errorMessageRegister{
+  background: red;
+  color: white;
+  padding: 0.60em;
+  width: 15em;
+  position: relative;
+  bottom: 3.2em;
+  right: 12em;
+  display: none;
+}
+/* Estilos de los mensajes que aparecen en caso de error en el ingreso
+  de datos de apellido, email y confirmar contraseña de la sección
+  REGISTRATE */
+.errorMessageRegister2{
+  background: red;
+  color: white;
+  padding: 0.60em;
+  width: 15em;
+  position: relative;
+  left: 14em;
+  bottom: 3.3em;
+  display: none;
+}
+.errorMessageRepassword{
+  background: red;
+  background: red;
+  color: white;
+  padding: 0.60em;
+  width: 15em;
+  position: relative;
+  left: 14em;
+  bottom: 3.3em;
+  display: none;
+}
 /* Estilos de la letra ó */
 .text-o{
   position: relative;
@@ -114,7 +150,7 @@
   margin-top: 3em;
 }
 /* Estilos de los mensajes que aparecen en caso de error en el ingreso
-  de datos de email y contraseña */
+  de datos de email y contraseña de la sección de INGRESA */
 .errorMessage{
   background: red;
   color: white;

@@ -48,26 +48,34 @@
       <div class="modal-body"> 
           <div class="row">
             <div class="col-lg-6 col-md-6">
-              <p><input class="inputRegister input-name" placeholder="Nombre"></p>
+              <p><input class="inputRegister input-name" id="inputName" placeholder="Nombre"></p>
+              <div class="errorMessageRegister" id="message3">Ingresa tu nombre</div>
             </div>
             <div class="col-lg-6 col-md-6">
-              <p><input class="inputRegister input-lastName" placeholder="Apellido"></p>
+              <p><input class="inputRegister input-lastName" id="inputLastName" placeholder="Apellido"></p>
+              <div class="errorMessageRegister2" id="message4">Ingresa tu apellido</div>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-6 col-md-6">
-              <p><input class="inputRegister input-age" placeholder="Edad"></p>
+              <p><input class="inputRegister input-age" id="inputAge" placeholder="Edad"></p>
+              <div class="errorMessageRegister" id="message5">Ingresa tu edad</div>
             </div>
             <div class="col-lg-6 col-md-6">
-              <p><input class="inputRegister input-eMail" placeholder="Email"></p>
+              <p><input class="inputRegister input-eMail" id="inputEmail" placeholder="Email"></p>
+              <div class="errorMessageRegister2" id="message6">Ingresa un Email</div>
+              <div class="errorMessageRegister2" id="message6-5">Ingresa un Email correcto</div>
             </div>
           </div> 
           <div class="row">
             <div class="col-lg-6 col-md-6">
-              <p><input type="password" class="inputRegister input-password" placeholder="Contraseña"></p>
+              <p><input type="password" class="inputRegister input-password" id="inputPassword" placeholder="Contraseña"></p>
+              <div class="errorMessageRegister" id="message7">Introduce un password</div>
             </div>
             <div class="col-lg-6 col-md-6">
-              <p><input type="password" class="inputRegister input-repassword" placeholder="Confirmar Contraseña"></p>
+              <p><input type="password" class="inputRegister input-repassword" id="inputRepassword" placeholder="Confirmar Contraseña"></p>
+              <div class="errorMessageRegister2" id="message8">Confirma tu password</div>
+              <div class="errorMessageRepassword" id="message9">Tu contraseña no coincide</div>
             </div>
           </div>          
           <div class="row">
@@ -82,7 +90,9 @@
           </div>
            <div class="row">
             <div class="col-lg-12 col-md-12">
-              <button class="btn-lg btn-primary btnFacebook">ACCEDER CON FACEBOOK</button>
+              <button class="btn-lg btn-primary btnFacebook" scope="public_profile,email" onlogin="checkLoginState();">ACCEDER CON FACEBOOK</button>
+              <!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>-->
+              <div id="status"></div>
             </div>
           </div>
            <div class="row">
@@ -111,7 +121,8 @@
            <div class="col-lg-12 col-md-12">
              <label>Email:</label>
              <input id="txtEmail" type="text" class="inputEntryEmail">
-             <div class="errorMessage" id="message1">Ingresa un Email correcto</div>
+             <div class="errorMessage" id="message1">Ingresa un Email</div>
+             <div class="errorMessage" id="message1-5">Ingresa un Email correcto</div>
            </div>
          </div>
          <div class="row">
@@ -131,11 +142,7 @@
      </div>
    </div>
  </div>
-</form>     
-
-
-
-
+</form> 
 
   <script src="assets/js/jquery-3.2.1.min.js"></script>
   <script src="assets/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
