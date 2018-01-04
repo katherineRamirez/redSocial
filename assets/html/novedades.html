@@ -41,60 +41,59 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 	<!--seccion mi muro a superar-->
-	<section class="newsfeed">
-		<div class="container-fluid" id="contain-newsfeed">
-			<div class="row" id="div-write-categories">
-				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-					<div id="div-write-news">
-						<div id="div-write-area">
-							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="div-write-user-perfil">
-								<a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
-							</div>
-							<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-								<input id="div-write-happening" placeholder="¿Qué está pasando?">
-									
-								</input>
-							</div>
-							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="div-insert">
-								<a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+	<section class="sectn-me-write">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 div-write-news div-write-feed">
+					<div>
+						<div class="div-write-area">
+								<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+									<a href="#"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
+								</div>
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+									<input class="div-write-happening" placeholder="¿Qué está pasando?">
+										
+									</input>
+								</div>
+								<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 div-insert">
+									<a href="#"><i class="fa fa-smile-o fa-lg" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i></a>
+								</div>
 							</div>
 						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-btn">
+						<div class="btn-group" role="group">
+							<h5>Escoge categoría para enviar</h5>
+						  <button type="button" class="btn btn-default">Familia</button>
+						  <button type="button" class="btn btn-default">Pareja</button>
+						  <button type="button" class="btn btn-default">Amigos</button>
+						  <button type="button" class="btn btn-default">Estudios</button>
+						  <button type="button" class="btn btn-default">Trabajo</button>
+						  <button type="button" class="btn btn-default">Otros</button>
+						</div>
 					</div>
-				</div>
-				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" id="div-categories">
-					<h5>Escoge categoría para enviar</h5>
-					<div class="btn-group" role="group">
-					  <button type="button" class="btn btn-default">Familia</button>
-					  <button type="button" class="btn btn-default">Pareja</button>
-					  <button type="button" class="btn btn-default">Amigos</button>
-					  <button type="button" class="btn btn-default">Estudios</button>
-					  <button type="button" class="btn btn-default">Trabajo</button>
-					  <button type="button" class="btn btn-default">Otros</button>
-					</div>
-				</div>
+				</div>	
 			</div>
 		</div>
 	</section>
 	<!--seccion peldaños-->
-	<section>
+	<section class="sectn-stair" >
 		<div class="container-fluid">
-			<div class="row" id="div-published-happening">
-				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-					<div id="div-happening-news">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="div-happening-user-perfil">
+			<div class="row" class="div-published-happening">
+				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 div-happening-news">
+					<div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" class="div-happening-user-perfil">
 							<a href="#"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
-							<a href="#"><span class="label label-warning">Categoría</span></a>
+							<h3><a href="#"><span class="label label-warning">Categoría</span></a></h3>
 							<span>Lugar, hora</span>
 						</div>
-						<div id="div-happening-area">
+						<div class="div-happening-area">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<p>Aquí lo que el usuario escribe</p>
 							</div>
 						</div>
 					</div>
-				</div>	
-				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" id="div-categories">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-categories">
 					<div class="btn-group">
 					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Te leo</button>	
 		        <ul class="dropdown-menu list-unstyled list-inline">
@@ -108,23 +107,24 @@
 					</div>
 				</div>
 				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-					<div id="div-help-news">
-						<div id="div-help-area">
-							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="div-help-user-perfil">
+					<div class="div-help-news">
+						<div class="div-help-area">
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" class="div-help-user-perfil">
 								<a href="#"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
 							</div>
 							<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-								<input id="div-help-happening" placeholder="Tus palabras de ánimo">
+								<input class="div-help-happening" placeholder="Tus palabras de ánimo">
 									
 								</input>
 							</div>
-							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="div-insert">
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" class="div-insert">
 								<a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i></a>
 								<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
 							</div>
 						</div>
 					</div>
-				</div>		
+				</div>
+				</div>	
 			</div>
 		</div>
 	</section>

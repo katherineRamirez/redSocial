@@ -20,7 +20,10 @@ header {
 	background-repeat: no-repeat; 
 	background-size: cover;
 	background-position: bottom;
-	margin-top: 4.325em;
+	margin-top: 4.32em;
+}
+header .row {
+	margin: 0 auto;
 }
 header .header-user i {
 	padding: 1em;
@@ -37,4 +40,58 @@ header .btn-follow {
 	display: block;
 	margin-bottom: 1em;
 	margin-left: 3em;
+}
+/*formato general seccion me-write*/
+.sectn-me-write .row {
+	margin: 0 auto;
+}
+.sectn-me-write .div-me {
+	margin: 2.5em;
+	background-color: #FFFFFF;
+	border: 2px double #F4FA58;
+}
+.sectn-me-write h3, h4 {
+	padding: 0.5em 1.5em; 
+}
+.sectn-me-write h3 {
+	border-bottom: 2px double #F4FA58;
+}
+.sectn-me-write h4 span {
+	color: #5F04B4;
+}
+.sectn-me-write .div-write-news {
+	background-color: #FFFFFF;
+}
+.sectn-me-write .div-write-news {
+	margin-top: 2.5em;
+	border: 2px double #F4FA58;
+	padding: 1.5em 2.5em;
+} 
+.sectn-me-write .div-write-feed {
+	margin-top: 7em;
+}
+.sectn-me-write .div-write-news .div-write-happening {
+	border: none;
+	width: 100%;
+	height: 3.5em;
+}
+.sectn-me-write .div-write-news .div-write-area a i {
+	margin: 0.5em;
+}
+.sectn-me-write .div-btn {
+	margin-top: 1em;
+	border-top: 2px double #F4FA58;
+	padding: 0;
+}
+.sectn-me-write .div-btn h5 {
+	padding: 1em 0;
+}
+.sectn-me-write .div-btn .btn-group button {
+	padding: 0.5em 2.82em;
+	background-color: #380B61;
+	color: #FFBF00;
+}
+/*formato seccion peldaños*/
+.sectn-stair .div-happening-news {
+	background-color: #FFFFFF;
 }
