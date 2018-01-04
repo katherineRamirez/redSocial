@@ -97,12 +97,32 @@
 }
 /* Margen a la izquierda del input de contraseña de la sección de ingreso */
 .inputEntryPass{
-  margin-left: 3.7em;
+  margin-left: 1.2em;
+  padding: 0.30em;
+  margin-top: 1em;
 }
+/* Margen a la izquierda del input de email de la sección de ingreso */
+.inputEntryEmail{
+  margin-left: 4em;
+  padding: 0.30em;
+}
+
 /* Estilos del botón de ingresar del modal inicio de sesión */
 .btnEntry{
-  padding: 0.30em;
+  padding: 0.40em;
   background: #FFBF00;
   margin-top: 3em;
+}
+/* Estilos de los mensajes que aparecen en caso de error en el ingreso
+  de datos de email y contraseña */
+.errorMessage{
+  background: red;
+  color: white;
+  padding: 0.60em;
+  width: 15em;
+  position: relative;
+  left: 23em;
+  bottom: 2.5em;
+  display: none;
 }
 
