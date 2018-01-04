@@ -50,13 +50,13 @@ header .btn-follow {
 	background-color: #FFFFFF;
 	border: 2px double #F4FA58;
 }
-.sectn-me-write h3, h4 {
+.sectn-me-write h4, h5 {
 	padding: 0.5em 1.5em; 
 }
-.sectn-me-write h3 {
+.sectn-me-write h4 {
 	border-bottom: 2px double #F4FA58;
 }
-.sectn-me-write h4 span {
+.sectn-me-write h5 span {
 	color: #5F04B4;
 }
 .sectn-me-write .div-write-news {
@@ -94,4 +94,56 @@ header .btn-follow {
 /*formato seccion peldaños*/
 .sectn-stair .div-happening-news {
 	background-color: #FFFFFF;
+	border: 2px double #F4FA58;
+	margin-top: 2.5em;
+	margin-left: 15.75em;
+	padding: 0;
+	width: 65.4%;
+}
+
+.sectn-stair .div-happening-newprof {
+	margin-left: 28em;
+	margin-top: 0;
+}
+.sectn-stair .div-happening-news .div-happening-profile a .fa-user-circle {
+	margin: 0.75em 0.5em; 
+}
+.sectn-stair .div-happening-news .div-happening-profile h3 {
+	display: inline-block;
+	margin: 0;
+	
+}
+.sectn-stair .div-happening-news .div-happening-profile h3 a span {
+	background-color: #380B61;
+	color: #FFBF00;
+	padding: 0.1em;
+}
+.sectn-stair .div-happening-news .div-happening-area div {
+	border-bottom: 2px double #F4FA58;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.sectn-stair .div-happening-news .div-happening-area p {
+	margin-left: 2.5em;
+	padding-bottom: 1em;
+}
+.sectn-stair .div-happening-news .div-categories {
+	border-bottom: 2px double #F4FA58;
+	padding: 1em;
+}
+.sectn-stair .div-happening-news .div-categories .btn-group {
+	margin-left: 1.5em;
+}
+.sectn-stair .div-happening-news .div-categories .btn-group button {
+	background-color: #380B61;
+	color: #FFBF00;
+} 
+.sectn-stair .div-happening-news .div-help-news {
+	display: none;
+	padding: 1em;
+}
+.sectn-stair .div-happening-news .div-help-news input {
+	border: none;
+	padding-bottom: 2em;
 }
