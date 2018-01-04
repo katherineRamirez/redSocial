@@ -91,6 +91,30 @@ header .btn-follow {
 	background-color: #380B61;
 	color: #FFBF00;
 }
+/* Estilos mensaje para subir fotos (cuadro de texto) */
+.unload{
+border-radius: 0.50em;
+background-color: #2E2E2E;
+color: white;
+padding: 0.50em;
+width: 7em;
+position: relative;
+right: 2em;
+top: 1em;
+display: none;
+}
+/* Agregar el vértice del bocadillo con before al cuadro de texto */
+.unload:before {
+content:"";
+width: 0;
+height: 0;
+position: absolute;
+margin: -2em 0 0 2em;
+border-bottom: 2em solid #2E2E2E;
+border-right: 1em solid transparent;
+border-left: 1em solid transparent;
+display: none;
+}
 /*formato seccion peldaños*/
 .sectn-stair .div-happening-news {
 	background-color: #FFFFFF;

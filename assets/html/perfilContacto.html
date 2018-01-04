@@ -58,12 +58,12 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 div-me">
-						<h3>Sobre mí</h3>
-						<h4>Nací en: <span>una Ciudad</span></h4>
-						<h4>Vivo en: <span>otra Ciudad</span></h4>
-						<h4>Estudio en: <span>Laboratoria</span></h4>
-						<h4>Mi pasatiempo es: <span>hacer Código</span></h4>
-            <h4>Mis contactos: <span>No tienes contactos</span></h4>
+						<h4>Sobre mí</h4>
+						<h5>Nací en: <span>una Ciudad</span></h5>
+						<h5>Vivo en: <span>otra Ciudad</span></h5>
+						<h5>Estudio en: <span>Laboratoria</span></h5>
+						<h5>Mi pasatiempo es: <span>hacer Código</span></h5>
+            			<h5>Mis contactos: <span>No tienes contactos</span></h5>
 					</div>
 					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 div-write-news">
 						<div>
@@ -99,57 +99,58 @@
 	</section>
 
 	<!--seccion peldaños-->
-	<section>
+	<section class="sectn-stair" >
 		<div class="container-fluid">
-			<div class="row" id="div-published-happening">
-				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-					<div id="div-happening-news">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="div-happening-user-perfil">
-							<a href="#"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
-							<a href="#"><span class="label label-warning">Categoría</span></a>
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 div-happening-news div-happening-newprof">
+					<div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-happening-profile">
+							<a href="#"><i class="fa fa-user-circle fa-3x" id="user-perfil" aria-hidden="true"></i></a>
+							<h3><a href="#"><span class="label label-warning">Categoría</span></a></h3>
 							<span>Lugar, hora</span>
 						</div>
-						<div id="div-happening-area">
+						<div class="div-happening-area">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<p>Aquí lo que el usuario escribe</p>
+								<p>Aquí lo que el usuario escribió sobre su situación en particular</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-categories">
+						<div class="btn-group">
+						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Te leo</button>	
+			        <ul class="dropdown-menu list-unstyled list-inline">
+			          <li><a href="#">Todo o nada</a></li>
+			          <li><a href="#">Adivinando</a></li>
+			          <li><a href="#">Generalizando</a></li>
+			          <li><a href="#">Suponiendo</a></li>
+			          <li><a href="#">Catastrofizando</a></li>
+			        </ul>
+			        <button type="button" class="btn btn-default" >Te ayudo</button>	
+						</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-help-news">
+					<div>
+						<div class="div-help-area">
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" class="div-help-user-perfil">
+								<a href="#"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								<input class="div-help-happening" placeholder="Tus palabras de ánimo">
+									
+								</input>
+							</div>
+								<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" class="div-insert">
+									<a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>	
-				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" id="div-categories">
-					<div class="btn-group">
-					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Te leo</button>	
-		        <ul class="dropdown-menu list-inline">
-		          <li><a href="#">Todo o nada</a></li>
-		          <li><a href="#">Adivinando</a></li>
-		          <li><a href="#">Generalizando</a></li>
-		          <li><a href="#">Suponiendo</a></li>
-		          <li><a href="#">Catastrofizando</a></li>
-		        </ul>
-		        <button type="button" class="btn btn-default" >Te ayudo</button>	
-					</div>
-				</div>
-				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-					<div id="div-help-news">
-						<div id="div-help-area">
-							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="div-help-user-perfil">
-								<a href="#"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
-							</div>
-							<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-								<input id="div-help-happening" placeholder="Tus palabras de ánimo">
-									
-								</input>
-							</div>
-							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="div-insert">
-								<a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>		
 			</div>
 		</div>
 	</section>
+
 
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
