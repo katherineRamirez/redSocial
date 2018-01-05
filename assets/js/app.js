@@ -118,11 +118,9 @@ $(document).ready(function(){
 	/* Función para cambiar display a la sección te ayudo */
 	$('#btnHelp').click(function(){
 		$('.div-stair-help').css('display', 'block');
-<<<<<<< c9ce24bb714d3e867fe79b03a4e48d16848ad2cb
-	})
-=======
+
 	});
->>>>>>> subiendo fotos
+
 
 });
 
