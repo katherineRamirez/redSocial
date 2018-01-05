@@ -105,7 +105,7 @@ $(document).ready(function(){
 	});
 
 	$('#btnHelp').click(function(){
-		$('.div-help-news').css('display', 'block');
+		$('.div-stair-help').css('display', 'block');
 	})
 
 });

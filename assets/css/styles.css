@@ -179,7 +179,7 @@ display: none;
 	color: #FFBF00;
 } 
 .sectn-stair .div-stair-news .div-stair-help {/*formato de la sección para escribir te ayudo*/
-	/*display: none;*/
+	display: none;
 	padding: 1em;
 }
 .sectn-stair .div-stair-news .div-stair-help input {/*formato del input para escribir en te ayudo*/

@@ -25,6 +25,9 @@
 	.sectn-me-write .div-me-write, .div-write-news  {
 	margin: 2.5em 1em 1em 1em;
 	}
+	.sectn-me-write .div-write-feed {
+	margin-left: 9.75em;
+	}
 	.sectn-stair .div-stair-news {
 	margin-left: 10.7em;
 	width: 64.25%;
