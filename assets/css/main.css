@@ -162,3 +162,66 @@
   display: none;
 }
 
+/* Sección para agregar fotos */
+/* Estilos del container que contiene el botón para buscar archivos */
+.uploadPhotos{
+  background: #D8D8D8;
+  width: 14em;
+  height: 6em;
+  padding: 1em;
+  position: relative;
+  bottom: 40em;
+  left: 4em;
+  display: none;
+}
+/* Estilos del botón buscar archivos */
+.btnUpload{
+  position: relative;
+  padding: 0.50em;
+}
+/* Container con fotos para subir */
+.containerUploadPhotos{
+  border: 4px solid #0174DF;
+  border-radius: 0.30em;
+  width: 27em;
+  height: 65vh;
+  background-color: #E6E6E6;
+  position: relative;
+  bottom: 50em;
+  display: none;
+}
+/* Título del container para subir fotos */
+.titleUpload{
+  background: #0174DF;
+  position: relative;
+  right: 1.3em;
+  width: 27em;
+}
+/* Icono de equis en el container para subir fotos */
+.fa-times{
+  position: relative;
+  right: 1em;
+}
+/* Estilos del título Carga de Archivos en el container para subir fotos */
+.titleUpload p{
+  color: white;
+  position: relative;
+  left: 1em;
+}
+.pSearch, .inputUpload{
+  position: relative;
+  top: 1em;
+}
+.images{
+  width: 5em;
+  margin-top: 2em;
+  cursor: pointer;
+}
+.btnUploadPhoto{
+  padding: 0.50em;
+  background: #0174DF;
+  color: white;
+  border-radius: 0.50em;
+  position: relative;
+  bottom: 37em;
+}

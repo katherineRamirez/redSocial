@@ -78,9 +78,53 @@
     left: 3em;
   }
   .btnFacebook, .btnGoogle{
-  margin-left: 1.5em;
+    margin-left: 1.5em;
   }
   .btn-access{
     left: 5em;
+  }
+  .containerUploadPhotos{
+    width: 24em;
+    height: 90vh;
+  }
+  .titleUpload{
+    width: 24em;
+    height: 3em;
+  }
+  .fa-question{
+    position: relative;
+    left: 9em;
+    bottom: 2em;
+  }
+  .fa-times{
+    bottom: 3.4em;
+    left: 21.5em;
+  }
+  .pSearch, .inputUpload{
+    top: 0;
+  }
+  .img2{
+    position: relative;
+    left: 7.5em;
+    bottom: 9em;
+  }
+  .img3{
+    position: relative;
+    bottom: 18.3em;
+    left: 15em;
+  }
+  .img4{
+    position: relative;
+    bottom: 20em;
+  }
+  .img5{
+    position: relative;
+    left: 7.5em;
+    bottom: 29.5em
+  }
+  .img6{
+    position: relative;
+    bottom: 38.5em;
+    left: 15em;
   }
  }

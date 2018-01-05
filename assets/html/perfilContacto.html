@@ -6,9 +6,10 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/main.css">
   <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
   <link rel="stylesheet" type="text/css" href="../css/mediaStyles.css">
+  <link rel="stylesheet" type="text/css" href="../css/mediaMain.css">
 </head>
 <body>
 	<!--nav-->
@@ -59,14 +60,15 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 	<!--header-->
+
 	<header class="header-contact">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div id="front-image">
-						<a href="#" class="header-user"><i class="fa fa-user-circle fa-5x" aria-hidden="true"></i></a>
-						<h2>Nombre Apellido</h2>
-					  <button type="button" id="btnFollow" class="btn btn-default btn-follow btn-contact">Quiero seguirte</button>
+						<a href="#" class="header-user"><img src="../imagesPerfil/img1.jpg"></a>
+						<h2>Maria Morales</h2>
+					  <button type="button" id="btnFollow" class="btn btn-default btn-follow">Quiero seguirte</button>
 					</div>  
 				</div>
 			</div>
@@ -113,6 +115,7 @@
 					</div>
 				</div>	
 			</div>
+ 
 		</div>	
 	</section>
 	<!--seccion peldaños-->
@@ -142,7 +145,7 @@
 			          <li><a href="#">Suponiendo</a></li>
 			          <li><a href="#">Catastrofizando</a></li>
 			        </ul>
-			        <button type="button" class="btn btn-default" >Te ayudo</button>	
+			        <button type="button" id="btnHelp" class="btn btn-default" >Te ayudo</button>	
 						</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-stair-help">
@@ -168,8 +171,85 @@
 		</div>
 	</section>
 
+	<!-- Sección con el botón para subir fotos -->
+	<div id="containerPictures" class="uploadPhotos">
+		<p>Subir Fotos</p>
+		<button id="btnPictures" class="btnUpload">Buscar Archivo</button>
+	</div>
+
+	<!-- Sección para subir fotos desde la pc -->
+	<div class="container containerUploadPhotos">
+	 <div class="titleUpload">
+    <div class="row">
+      <div class="col-xs-5 col-sm-5">
+        <p>Carga de Archivos</p>
+      </div>
+      <div class="col-xs-1 col-xs-offset-5 col-sm-1 col-sm-offset-5">
+        <a href="#"><i class="fa fa-question" aria-hidden="true"></i></a>
+      </div>
+      <div class="col-xs-1 col-sm-1">
+        <a href="#" id="exit"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+    </div>
+   </div>
+      <div class="row">
+      <div class="col-xs-4 col-sm-4">
+        <p class="pSearch">Buscar en:</p>
+      </div>
+      <div class="col-xs-8 col-sm-8">
+        <div class="input-group inputUpload">
+      <input type="text" class="form-control" aria-label="...">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div><!-- /btn-group -->     
+      </div>
+    </div>
+   </div>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4">
+        <img class="images" src="../imagesUpload/img1.gif">
+        <p>Flores</p>
+      </div>
+      <div class="col-xs-4 col-sm-4 img2">
+        <img class="images" src="../imagesUpload/img2.gif">
+        <p>Pájaro</p>
+      </div>
+      <div class="col-xs-4 col-sm-4 img3">
+        <img class="images" src="../imagesUpload/img3.gif">
+        <p>Corazón</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 img4">
+        <img class="images" src="../imagesUpload/img4.gif">
+        <p>Planetas</p>
+      </div>
+      <div class="col-xs-4 col-sm-4 img5">
+        <img class="images" src="../imagesUpload/img5.gif">
+        <p>Snoopy</p>
+      </div>
+      <div class="col-xs-4 col-sm-4 img6">
+        <img class="images" src="../imagesUpload/img6.gif">
+        <p>Imagen</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <button class="btnUploadPhoto">Subir Foto</button>
+      </div>
+    </div>
+	</div>
+	
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="../moment/moment.min.js" ></script>
   <script src="../js/app.js"></script>
   <script src="../js/temporal.js"></script>
 </body>

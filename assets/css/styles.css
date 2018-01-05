@@ -26,42 +26,51 @@ nav, .navbar-default { /*formato del nav (color y margen inferior*/
 .ul-nav-collapse {/*lista del nav izquierda*/
 	display: none;
 }
-/*formato general del header*/
-header { /*fondo header del perfil */
+.profile{/*fondo header del perfil */
 	background-image: url(../images/img-fondo.jpg);
 	background-repeat: no-repeat; 
 	background-size: cover;
 	background-position: bottom;
-	margin-top: 0;
+  height: 50vh;
+}
+.profile h2{
+  position: relative;
+  left: 4em;
+  bottom: 3em;
+}
+.profile .btn-follow{
+  position: relative;
+  bottom: 3em;
 }
 .header-contact {/*fondo header del perfil contacto*/
 	background-image: url(../images/img-fondo2.jpg);
 	background-repeat: no-repeat; 
 	background-size: cover;
 	background-position: bottom;
-	margin-top: 0;
+  height: 50vh;
 }
 header .row {/*eliminar margen*/
 	margin: 0 auto;
 }
-header .header-user i {/*formato para el ícono de usuario*/
-	padding: 0.5em;
-	color: #ECCEF5;
+header .header-user img {/*formato para la imagen de usuario*/
+	border-radius: 2em;
+  width: 10em;
+  height: 10em;
+  margin-top: 2em;
 }
 header h2 {/*formato para el nombre y apellido*/
 	display: inline-block;
 	color: #ECCEF5;
+  margin-left: 1em;
 }
 header .btn-follow {/*formato para el botón seguir*/
-	background-color: #380B61;
-	color: #FFBF00;
-	border: none;
-	display: block;
-	margin: 0 0 2em 1.5em;
+  background-color: #380B61;
+  color: #FFBF00;
+  border: none;
+  display: block;
+  margin: 1em;
 }
-header .btn-contact {/*formato para el botón seguir de perfil contacto*/
-	margin: 0 0 2em 0.75em;
-}
+
 /*formato general seccion me-write*/
 .sectn-me-write .row { /*margen nada*/
 	margin: 0 auto;
@@ -110,8 +119,8 @@ header .btn-contact {/*formato para el botón seguir de perfil contacto*/
 /* Estilos mensaje para subir fotos (cuadro de texto) */
 .unload{
 border-radius: 0.50em;
-background-color: #FFBF00; 
-color: #380B61;
+background-color: #6E6E6E; 
+color: white;
 padding: 0.50em;
 width: 7em;
 position: relative;
@@ -126,7 +135,7 @@ width: 0;
 height: 0;
 position: absolute;
 margin: -2em 0 0 2em;
-border-bottom: 2em solid #380B61;
+border-bottom: 2em solid #6E6E6E;
 border-right: 1em solid transparent;
 border-left: 1em solid transparent;
 display: none;
