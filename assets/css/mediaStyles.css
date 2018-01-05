@@ -1,29 +1,36 @@
-@media (min-width: 1025px) and (max-width: 1440px) {
-	.sectn-stair .div-happening-news {
+@media (min-width: 1025px) and (max-width: 1600px) {
+	.sectn-stair .div-stair-news {
 	margin-left: 17.75em;
 	width: 65.5%;
 	}
-	.sectn-stair .div-happening-newprof {
+	.sectn-stair .div-stair-newprof {
 	margin-left: 31em;
 	width: 65.5%;
 	}
 }
 @media (min-width: 771px) and (max-width: 1024px) {
-	.sectn-stair .div-happening-news {
+	.sectn-stair .div-stair-news {
 	margin-left: 12.75em;
 	width: 64.75%;
 	}
-	.sectn-stair .div-happening-newprof {
+	.sectn-stair .div-stair-newprof {
 	margin-left: 23.75em;
 	width: 64.75%;
 	}
 }
 @media (min-width: 426px) and (max-width: 770px) {
-  .sectn-me-write .div-write-news .div-write-area a i {
+   .sectn-me-write .div-write-news .div-write-area a i {
 	margin: 0;
 	}
-	.sectn-stair .div-happening-news {
-	margin-left: 9.7em;
+	.sectn-me-write .div-me-write, .div-write-news  {
+	margin: 2.5em 1em 1em 1em;
+	}
+	.sectn-stair .div-stair-news {
+	margin-left: 10.7em;
+	width: 64.25%;
+	}
+	.sectn-stair .div-stair-newprof {
+	margin-left: 17.25em;
 	width: 64.25%;
 	}
 }
@@ -32,14 +39,22 @@
  	.navbar-default .navbar-form {
  		display: none;
  	}
+ 	.sectn-me-write .div-me-write {
+	margin: 1em 0;
+	}
   .sectn-me-write .div-write-news .div-write-area a i {
 	margin: 0;
 	}
-  .sectn-stair .div-happening-news {
+
+  .sectn-stair .div-stair-news {
 	margin-left: 1em;
 	width: 92.5%;
 	}
+	.sectn-stair .div-stair-newprof {
+	margin: 1.5em 0 0 1.05em;
+	width: 93%;
+	}
 	.sectn-me-write .div-write-news {
-	margin-top: 1.5em;
-	} 
+	 margin-top: 0.5em;
+	}
 }

@@ -5,17 +5,18 @@
 	<title>Conecta</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-  	<link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css">
-  	<link rel="stylesheet" type="text/css" href="../css/styles.css">
-  	<link rel="stylesheet" type="text/css" href="../css/mediaStyles.css">
+  <link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/mediaStyles.css">
 </head>
 <body>
 	<!--nav-->
-	<nav class="navbar navbar-default navbar-fixed-top nav">
+	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
-	    <div class="navbar-default">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
 	      <ul class="nav navbar-nav ul-nav">
-	        <li class="dropdown">
+	        <li class="dropdown ">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i> </a>
 	          <ul class="dropdown-menu list-unstyled">
 	            <li><a href="#">Perfil</a></li>
@@ -26,7 +27,23 @@
 	            <li><a href="#">Salir</a></li>
 	          </ul>
 	        </li>
-	        <li><a class="navbar-brand" id="li-a-brand" href="#">Conecta</a></li>
+	      </ul>
+	      <a class="navbar-brand" href="#">Conecta</a>  
+	    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav ul-nav-collapse">
+	        <li class="dropdown ">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i> </a>
+	          <ul class="dropdown-menu list-unstyled">
+	            <li><a href="#">Perfil</a></li>
+	            <li><a href="#">Categorías</a></li>
+	            <li><a href="#">Contactos</a></li>
+	            <li><a href="#">Chat</a></li>
+	            <li><a href="#">Configuración</a></li>
+	            <li><a href="#">Salir</a></li>
+	          </ul>
+	        </li>
 	      </ul>
 	      <form class="navbar-form navbar-left">
 	        <div class="input-group">
@@ -57,25 +74,22 @@
 		<section class="sectn-me-write">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 div-me">
-
+					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 div-me-write">
 						<h4>Sobre mí</h4>
 						<h5>Nací en: <span>una Ciudad</span></h5>
 						<h5>Vivo en: <span>otra Ciudad</span></h5>
 						<h5>Estudio en: <span>Laboratoria</span></h5>
 						<h5>Mi pasatiempo es: <span>hacer Código</span></h5>					
-            			<h5>Mis contactos: <span id="contact">No tienes contactos</span></h5>
-
+            <h5>Mis contactos: <span id="contact">No tienes contactos</span></h5>
 					</div>
-					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 div-write-news">
+					<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 div-write-news">
 						<div>
-							<div class="div-write-area">
+							<div>
 								<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
 									<a href="#"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
 								</div>
-								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-									<input class="div-write-happening" placeholder="¿Qué está pasando?">
-										
+								<div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+									<input class="input-write-happening" placeholder="¿Qué está pasando?">
 									</input>
 								</div>
 								<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 div-insert">
@@ -104,20 +118,20 @@
 	<section class="sectn-stair" >
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 div-happening-news div-happening-newprof">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 div-stair-news div-stair-newprof">
 					<div>
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-happening-profile">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-stair-profile">
 							<a href="#"><i class="fa fa-user-circle fa-3x" id="user-perfil" aria-hidden="true"></i></a>
 							<h3><a href="#"><span class="label label-warning">Categoría</span></a></h3>
 							<span>Lugar, hora</span>
 						</div>
-						<div class="div-happening-area">
+						<div class="div-stair-area">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<p>Aquí lo que el usuario escribió sobre su situación en particular</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-categories">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-stair-categories">
 						<div class="btn-group">
 						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Te leo</button>	
 			        <ul class="dropdown-menu list-unstyled list-inline">
@@ -130,20 +144,20 @@
 			        <button type="button" id="btnHelp" class="btn btn-default">Te ayudo</button>	
 						</div>
 				</div>
-				<div id="contentHelp" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-help-news">
+				<div id="contentHelp" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-stair-help">
 					<div>
-						<div class="div-help-area">
-							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" class="div-help-user-perfil">
+						<div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
 								<a href="#"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
 							</div>
-							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-								<input class="div-help-happening" placeholder="Tus palabras de ánimo">
-									
+							<div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+								<input placeholder="Tus palabras de ánimo">
 								</input>
 							</div>
-								<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" class="div-insert">
+								<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
 									<a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i></a>
-									<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+									<a href="#"><i id="picture" class="fa fa-picture-o" aria-hidden="true"></i></a><!--el id debería ser clase para que funcione en todos los mensajes-->
+									<p id="unloadPictures" class="unload">Subir fotos</p>
 								</div>
 							</div>
 						</div>
@@ -152,7 +166,6 @@
 			</div>
 		</div>
 	</section>
-
 
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>

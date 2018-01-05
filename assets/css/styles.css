@@ -3,102 +3,106 @@ body {
 	background-color: #ECCEF5;
 	color: #380B61;
 }
-body a,i {
+body a,i {/*para los etiquetas a e i*/
 	color:  #380B61;
 }
 /*formato general del nav*/
-.nav, .navbar-default {
+nav, .navbar-default { /*formato del nav (color y margen inferior*/
 	background-color: #FFBF00;
+	margin-bottom: 0;
 }
-.nav #a-brand {
+.navbar-header #a-brand { /*formato de la marca Conecta*/
 	color: #380B61;
-	font-size: 1.5em;
 }
-.nav .span-input-search {
+.nav .span-input-search { /*para el input del nav*/
 	background-color: #ECCEF5;
 }
 .navbar-nav {
 	margin: 0;
 }
-.ul-nav {
+.ul-nav {/*primera lista del nav*/
 	display: inline-block;
 }
-.ul-nav-collapse {
+.ul-nav-collapse {/*lista del nav izquierda*/
 	display: none;
 }
 /*formato general del header*/
-header {
+header { /*fondo header del perfil */
+	background-image: url(../images/img-fondo.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: bottom;
+	margin-top: 0;
+}
+.header-contact {/*fondo header del perfil contacto*/
 	background-image: url(../images/img-fondo2.jpg);
 	background-repeat: no-repeat; 
 	background-size: cover;
 	background-position: bottom;
-	margin-top: 4.32em;
+	margin-top: 0;
 }
-header .row {
+header .row {/*eliminar margen*/
 	margin: 0 auto;
 }
-header .header-user i {
-	padding: 1em;
+header .header-user i {/*formato para el ícono de usuario*/
+	padding: 0.5em;
 	color: #ECCEF5;
 }
-header h2 {
+header h2 {/*formato para el nombre y apellido*/
 	display: inline-block;
 	color: #ECCEF5;
 }
-header .btn-follow {
+header .btn-follow {/*formato para el botón seguir*/
 	background-color: #380B61;
 	color: #FFBF00;
 	border: none;
 	display: block;
-	margin-bottom: 1em;
-	margin-left: 3em;
+	margin: 0 0 2em 1.5em;
+}
+header .btn-contact {/*formato para el botón seguir de perfil contacto*/
+	margin: 0 0 2em 0.75em;
 }
 /*formato general seccion me-write*/
-.sectn-me-write .row {
+.sectn-me-write .row { /*margen nada*/
 	margin: 0 auto;
 }
-.sectn-me-write .div-me {
+.sectn-me-write .div-me-write {/*subseccion sobre mi*/
 	margin: 2.5em;
 	background-color: #FFFFFF;
 	border: 2px double #F4FA58;
 }
-.sectn-me-write h4, h5 {
+.sectn-me-write h4, h5 {/*títulos subseccion sobre mi*/
 	padding: 0.5em 1.5em; 
 }
-.sectn-me-write h4 {
+.sectn-me-write h4 {/*línea inferior título sobre mi*/
 	border-bottom: 2px double #F4FA58;
 }
-.sectn-me-write h5 span {
+.sectn-me-write h5 span {/*span dentro de título sobre mi*/
 	color: #5F04B4;
 }
-.sectn-me-write .div-write-news {
+.sectn-me-write .div-write-news {/*formato div columna write news*/
 	background-color: #FFFFFF;
-}
-.sectn-me-write .div-write-news {
 	margin-top: 2.5em;
 	border: 2px double #F4FA58;
 	padding: 1.5em 2.5em;
-} 
-.sectn-me-write .div-write-feed {
-	margin-top: 7em;
 }
-.sectn-me-write .div-write-news .div-write-happening {
+.sectn-me-write .div-write-news .input-write-happening {/*formato del input*/
 	border: none;
 	width: 100%;
 	height: 3.5em;
 }
-.sectn-me-write .div-write-news .div-write-area a i {
+.sectn-me-write .div-write-news .div-insert a i {/*formato íconos insertar foto y emoji*/
 	margin: 0.5em;
 }
-.sectn-me-write .div-btn {
+.sectn-me-write .div-btn {/*formato div botones*/
 	margin-top: 1em;
 	border-top: 2px double #F4FA58;
 	padding: 0;
 }
-.sectn-me-write .div-btn h5 {
+.sectn-me-write .div-btn h5 {/*título div botones*/
 	padding: 1em 0;
 }
-.sectn-me-write .div-btn .btn-group button {
+.sectn-me-write .div-btn .btn-group button {/*formato botones categorías*/
 	padding: 0.5em 2.82em;
 	background-color: #380B61;
 	color: #FFBF00;
@@ -106,8 +110,8 @@ header .btn-follow {
 /* Estilos mensaje para subir fotos (cuadro de texto) */
 .unload{
 border-radius: 0.50em;
-background-color: #2E2E2E;
-color: white;
+background-color: #FFBF00; 
+color: #380B61;
 padding: 0.50em;
 width: 7em;
 position: relative;
@@ -122,64 +126,64 @@ width: 0;
 height: 0;
 position: absolute;
 margin: -2em 0 0 2em;
-border-bottom: 2em solid #2E2E2E;
+border-bottom: 2em solid #380B61;
 border-right: 1em solid transparent;
 border-left: 1em solid transparent;
 display: none;
 }
 /*formato seccion peldaños*/
-.sectn-stair .div-happening-news {
+.sectn-stair .div-stair-news {/*formato de información de posteo*/
 	background-color: #FFFFFF;
 	border: 2px double #F4FA58;
 	margin-top: 2.5em;
-	margin-left: 15.75em;
+	/*margin-left: 15.75em;*/
 	padding: 0;
 	width: 65.4%;
 }
-
-.sectn-stair .div-happening-newprof {
-	margin-left: 28em;
+.sectn-stair .div-stair-newprof {/*información modificada para perfiles*/
+	/*margin-left: 28em;*/
 	margin-top: 0;
 }
-.sectn-stair .div-happening-news .div-happening-profile a .fa-user-circle {
+.sectn-stair .div-stair-news .div-stair-profile a .fa-user-circle {/*margen del ícomo perfil en posteo*/
 	margin: 0.75em 0.5em; 
 }
-.sectn-stair .div-happening-news .div-happening-profile h3 {
+.sectn-stair .div-stair-news .div-stair-profile h3 {/*formato de la categoría, lugar y hora del posteo*/
 	display: inline-block;
 	margin: 0;
 	
 }
-.sectn-stair .div-happening-news .div-happening-profile h3 a span {
+.sectn-stair .div-stair-news .div-stair-profile h3 a span { /*formato de lugar y hora del posteo*/
 	background-color: #380B61;
 	color: #FFBF00;
 	padding: 0.1em;
 }
-.sectn-stair .div-happening-news .div-happening-area div {
+.sectn-stair .div-stair-news .div-stair-area div {/*formato del posteo en sí*/
 	border-bottom: 2px double #F4FA58;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
-.sectn-stair .div-happening-news .div-happening-area p {
+.sectn-stair .div-stair-news .div-stair-area p {/*formato del párrafo del posteo*/
 	margin-left: 2.5em;
 	padding-bottom: 1em;
 }
-.sectn-stair .div-happening-news .div-categories {
+.sectn-stair .div-stair-news .div-stair-categories {/*formato de las cateogrías te leo*/
 	border-bottom: 2px double #F4FA58;
 	padding: 1em;
 }
-.sectn-stair .div-happening-news .div-categories .btn-group {
+.sectn-stair .div-stair-news .div-stair-categories .btn-group {/*formato deñ div de los botones te leo y te ayudo*/
 	margin-left: 1.5em;
 }
-.sectn-stair .div-happening-news .div-categories .btn-group button {
+.sectn-stair .div-stair-news .div-stair-categories .btn-group button {/*formato de los botones*/
 	background-color: #380B61;
 	color: #FFBF00;
 } 
-.sectn-stair .div-happening-news .div-help-news {
-	display: none;
+.sectn-stair .div-stair-news .div-stair-help {/*formato de la sección para escribir te ayudo*/
+	/*display: none;*/
 	padding: 1em;
 }
-.sectn-stair .div-happening-news .div-help-news input {
+.sectn-stair .div-stair-news .div-stair-help input {/*formato del input para escribir en te ayudo*/
 	border: none;
 	padding-bottom: 2em;
 }
+
